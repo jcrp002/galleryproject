@@ -1,0 +1,28 @@
+.carousel {
+    width: 45%;
+    margin: 0 auto;
+  }
+  
+  .carousel-inner {
+    height: 500px; /* Ajusta la altura según tus necesidades */
+  }
+  
+  .carousel-item figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .carousel-item img {
+    max-width: 120%;
+    max-height: 100%;
+  }
+  
+  .carousel-item figcaption {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+  }
